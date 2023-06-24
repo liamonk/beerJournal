@@ -6,7 +6,7 @@ export default[
         styleGuideAddress: "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/#48",
         brewDate: "10th June 2023",
         reviewDate: "13th June 2023",
-        description: "I brewed this beer to have a crushable hefeweizen on tap. I've made a few before but this time I tried to resist my urge to hop everything into oblivion. My OG came in a litte lower than I would have expected but still ended up with a respectable 4.2% ABV. Named because it is a German beer brewed in the pacific using ingredients from the pacific with pacifica hops!",
+        description: "I brewed this beer to have a refreshing hefeweizen on tap. I've made a few before but this time I tried to resist my urge to hop everything into oblivion. My OG came in a litte lower than I would have expected but still ended up with a respectable 4.2% ABV. Named because it is a German beer brewed in the pacific using ingredients from the pacific with pacifica hops!",
         review:"TBC!",
         image:"tbc.jpg",
         rating:"tbc"
