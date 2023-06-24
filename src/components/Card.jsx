@@ -12,7 +12,7 @@ export default function Card(props) {
           <h5>
             <a
               className="card-header-link"
-              href="props.cardData.styleGuideAddress"
+              href={`${props.cardData.styleGuideAddress}`}
             >
               View style on Wikipedia
             </a>
