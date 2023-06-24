@@ -4,7 +4,7 @@ export default function Card(props) {
   return (
     <div className="card">
       <div className="card-image-box">
-        <img className="card-image" src={`/public/darkSaison.jpg`} />
+        <img className="card-image" src={`/public/hops.png`} />
       </div>
       <div className="card-box">
         <div className="card-header">
