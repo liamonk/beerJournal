@@ -35,6 +35,20 @@ export default function Card(props) {
         <p>
           <b>Review:</b> {props.cardData.review}
         </p>
+        <div className="card-stats">
+          <p>
+            <b>ABV: </b>
+            {props.cardData.abv}%
+          </p>
+          <p>
+            <b>IBU: </b>
+            {props.cardData.ibu}
+          </p>
+          <p>
+            <b>SRM: </b>
+            {props.cardData.srm}
+          </p>
+        </div>
       </div>
     </div>
   );

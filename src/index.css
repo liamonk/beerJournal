@@ -35,6 +35,7 @@ body{
   padding: 0px;
   box-shadow: 1px 1px 1px 1px lightgrey;
   border-radius: 10px;
+  overflow: auto;
 }
 
 .card-image{
@@ -63,6 +64,11 @@ body{
   display: flex;
   gap:20px;
   margin-bottom: -20px;
+}
+
+.card-stats{
+  display: flex;
+  gap:50px;
 }
 
 

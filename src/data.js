@@ -9,7 +9,10 @@ export default[
         description: "I brewed this beer to have a refreshing hefeweizen on tap. I've made a few before but this time I tried to resist my urge to hop everything into oblivion. My OG came in a litte lower than I would have expected but still ended up with a respectable 4.2% ABV. Named because it is a German beer brewed in the pacific using ingredients from the pacific with pacifica hops!",
         review:"TBC!",
         image:"tbc.jpg",
-        rating:"tbc"
+        rating:"tbc",
+        abv: 4.2,
+        ibu: 20,
+        srm: 5
     },
     {
     id: 2,
@@ -21,7 +24,10 @@ export default[
     description: "I brewed this beer with my mum because she came to visit and I wanted to make something she would enjoy. It was made with all NZ ingredients and was meant to be hoppy and refreshing. The idea was I could take a bottle to Auckland with me at Queens Birthday for a tasting session. It is the second beer in my family series following on from the Irish Red I brewed with my dad.",
     review:"A tasty and refreshing beer with a bit of malt sweetness and a plesant hoppy aroma and flavour. Something for everyone in this beer. Would brew again!",
     image:"nzPils.jpg",
-    rating: "4.5/5"
+    rating: "4.5/5",
+    abv: 4.2,
+    ibu: 35,
+    srm: 7
 },
 {
     id: 3,
@@ -33,6 +39,9 @@ export default[
     description: "I love a dark beer and wanted to brew something a bit different. I decided on a dark saison and originally planned to add 100g dried cranberries. In the end I chickened out and didn't add the cranberries because I was worried the flavour of them would be a bit much and I was worried about the potential for contamination of my equipment.",
     review:"This was a yummy beer but there was a bit too much bitterness for such a dry beer. I also think I should have cut back on the roasted malt because it was a little astringent. Next time I'd definately add the cranberries too. Nice beer overall",
     image:"darkSaison.jpg",
-    rating: "3.5/5"
+    rating: "3.5/5",
+    abv: 4.2,
+    ibu: 30,
+    srm: 40
 },
 ]
