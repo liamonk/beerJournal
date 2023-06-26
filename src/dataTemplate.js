@@ -12,7 +12,10 @@ Template to use for adding new posts
     description: "",
     review:"",
     image:"",
-    rating:""
+    rating:"",
+    abv: ,
+    ibu:,
+    srm: 
 },
 
 */

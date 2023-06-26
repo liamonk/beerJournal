@@ -44,4 +44,19 @@ export default[
     ibu: 30,
     srm: 40
 },
+{
+    id: 4,
+    name: "Chil time",
+    style: "Cold IPA",
+    styleGuideAddress: "",
+    brewDate: "April",
+    reviewDate: "May",
+    description: "A cold IPA is pretty much the same thing as an IPL but a bit drier. I always liked a hoppy lager so was keen to give a beer like this a try. I used glucoamalyse enzyme to help dry the beer out and a lot of whirlpool / dry hops. I have no idea why it is called a cold IPA but it was a fun beer to try and brew.",
+    review:"Nice and hoppy with a surprising amount of malt sweetness for how dry the beer came out. Has kept well and is nice and crystal clear. Doesn't seem as high alcohol as it is and turned out to be pretty refreshing.",
+    image:"coldipa.jpg",
+    rating:"4.5/5",
+    abv: 6.2,
+    ibu: 35,
+    srm: 4
+},
 ]
