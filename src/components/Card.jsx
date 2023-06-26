@@ -1,6 +1,11 @@
 import React from "react";
+import { format } from "date-fns";
 
 export default function Card(props) {
+  const renderDate = (dateString) => {
+    return format(new Date(dateString), "do MMM yy");
+  };
+
   return (
     <div className="card">
       <div className="card-image-box">
@@ -22,11 +27,11 @@ export default function Card(props) {
         <h1>{props.cardData.name}</h1>
         <div className="card-dates">
           <p>
-            <b>Brewed on:</b> {props.cardData.brewDate}{" "}
+            <b>Brewed on:</b> {renderDate(props.cardData.brewDate)}{" "}
           </p>
           <p>
             <b>Reviewed on:</b>
-            {props.cardData.reviewDate}
+            {renderDate(props.cardData.reviewDate)}
           </p>
         </div>
         <p>
