@@ -39,8 +39,8 @@ export default [
     style: "Dark Saison",
     styleGuideAddress:
       "https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/#147",
-    brewDate: "2023-03-05T00:00:00Z",
-    reviewDate: "2023-04-05T00:00:00Z",
+    brewDate: "2023-02-05T00:00:00Z",
+    reviewDate: "2023-03-06T00:00:00Z",
     description:
       "I love a dark beer and wanted to brew something a bit different. I decided on a dark saison and originally planned to add 100g dried cranberries. In the end I chickened out and didn't add the cranberries because I was worried the flavour of them would be a bit much and I was worried about the potential for contamination of my equipment.",
     review:
@@ -56,8 +56,8 @@ export default [
     name: "Chil time",
     style: "Cold IPA",
     styleGuideAddress: "",
-    brewDate: "2023-04-01T00:00:00Z",
-    reviewDate: "2023-03-01T00:00:00Z",
+    brewDate: "2023-03-20T00:00:00Z",
+    reviewDate: "2023-04-29T00:00:00Z",
     description:
       "A cold IPA is pretty much the same thing as an IPL but a bit drier. I always liked a hoppy lager so was keen to give a beer like this a try. I used glucoamalyse enzyme to help dry the beer out and a lot of whirlpool / dry hops. I have no idea why it is called a cold IPA but it was a fun beer to try and brew.",
     review:

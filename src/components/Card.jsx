@@ -27,10 +27,10 @@ export default function Card(props) {
         <h1>{props.cardData.name}</h1>
         <div className="card-dates">
           <p>
-            <b>Brewed on:</b> {renderDate(props.cardData.brewDate)}{" "}
+            <b>Brewed:</b> {renderDate(props.cardData.brewDate)}{" "}
           </p>
           <p>
-            <b>Reviewed on:</b>
+            <b>Reviewed:</b>
             {renderDate(props.cardData.reviewDate)}
           </p>
         </div>
