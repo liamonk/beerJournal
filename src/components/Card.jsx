@@ -19,7 +19,7 @@ export default function Card(props) {
               className="card-header-link"
               href={`${props.cardData.styleGuideAddress}`}
             >
-              View style on Wikipedia
+              View style description
             </a>
           </h5>
           <h5>Rating:{props.cardData.rating}</h5>
