@@ -15,6 +15,7 @@ export default [
     abv: 4.2,
     ibu: 20,
     srm: 5,
+    onTap: false
   },
   {
     id: 2,
@@ -32,6 +33,7 @@ export default [
     abv: 5.8,
     ibu: 35,
     srm: 7,
+    onTap: true
   },
   {
     id: 3,
@@ -50,6 +52,7 @@ export default [
     abv: 6.4,
     ibu: 30,
     srm: 40,
+    onTap:true
   },
   {
     id: 4,
@@ -67,5 +70,6 @@ export default [
     abv: 6.2,
     ibu: 35,
     srm: 4,
+    onTap: true
   },
 ];

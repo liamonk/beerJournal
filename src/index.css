@@ -46,6 +46,16 @@ body {
   align-items: center;
 }
 
+.card-badgeText{
+  position: absolute;
+  background-color: white;
+  color:black;
+  padding: 2px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
 .card-image {
   max-height: 300px;
   padding: 20px;

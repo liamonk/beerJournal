@@ -5,10 +5,14 @@ export default function Card(props) {
   const renderDate = (dateString) => {
     return format(new Date(dateString), "do MMM yy");
   };
-
+  let badgeText = "";
+  if (props.cardData.onTap === true) {
+    badgeText = "ON TAP";
+  }
   return (
     <div className="card">
       <div className="card-image-box">
+        {badgeText !== "" && <div className="card-badgeText">{badgeText}</div>}
         <img className="card-image" src={`./${props.cardData.image}`} />
       </div>
       <div className="card-box">
