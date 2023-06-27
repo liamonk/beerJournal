@@ -31,11 +31,15 @@ export default function Card(props) {
         <h1>{props.cardData.name}</h1>
         <div className="card-dates">
           <p>
-            <b>Brewed:</b> {renderDate(props.cardData.brewDate)}{" "}
+            <b>Brewed:</b>{" "}
+            {props.cardData.brewDate !== "" &&
+              renderDate(props.cardData.brewDate)}{" "}
           </p>
           <p>
             <b>Reviewed:</b>
-            {renderDate(props.cardData.reviewDate)}
+            {(props.cardData.reviewDate !== "" &&
+              renderDate(props.cardData.reviewDate)) ||
+              " As yet untasted!"}
           </p>
         </div>
         <p>
