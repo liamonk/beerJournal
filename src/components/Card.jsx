@@ -6,7 +6,7 @@ export default function Card(props) {
     return format(new Date(dateString), "do MMM yy");
   };
   let badgeText = "";
-  if (props.cardData.onTap === true) {
+  if (props.cardData.onTap) {
     badgeText = "ON TAP";
   }
   return (

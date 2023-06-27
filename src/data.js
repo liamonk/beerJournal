@@ -25,7 +25,7 @@ export default [
     brewDate: "2023-05-05T00:00:00Z",
     reviewDate: "2023-06-01T00:00:00Z",
     description:
-      "I brewed this beer with my mum because she came to visit and I wanted to make something she would enjoy. It was made with all NZ ingredients and was meant to be hoppy and refreshing. The idea was I could take a bottle to Auckland with me at Queens Birthday for a tasting session. It is the second beer in my family series following on from the Irish Red I brewed with my dad.",
+      "I brewed this beer with my mum because she came to visit and I wanted us to make something she would enjoy on her next visit. It was made with all NZ ingredients and was meant to be hoppy and refreshing. The idea was I could take a bottle to Auckland with me at Queens Birthday for a tasting session (which went down nicely!). It is the second beer in my family series following on from the Irish Red I brewed with my dad.",
     review:
       "A tasty and refreshing beer with a bit of malt sweetness and a plesant hoppy aroma and flavour. Something for everyone in this beer. Would brew again!",
     image: "nzPils.jpg",
