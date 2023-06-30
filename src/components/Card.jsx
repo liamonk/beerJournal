@@ -5,10 +5,14 @@ export default function Card(props) {
   const renderDate = (dateString) => {
     return format(new Date(dateString), "do MMM yy");
   };
-
+  let badgeText = "";
+  if (props.cardData.onTap) {
+    badgeText = "ON TAP";
+  }
   return (
     <div className="card">
       <div className="card-image-box">
+        {badgeText !== "" && <div className="card-badgeText">{badgeText}</div>}
         <img className="card-image" src={`./${props.cardData.image}`} />
       </div>
       <div className="card-box">
@@ -19,7 +23,7 @@ export default function Card(props) {
               className="card-header-link"
               href={`${props.cardData.styleGuideAddress}`}
             >
-              View style on Wikipedia
+              View style description
             </a>
           </h5>
           <h5>Rating:{props.cardData.rating}</h5>
@@ -27,11 +31,15 @@ export default function Card(props) {
         <h1>{props.cardData.name}</h1>
         <div className="card-dates">
           <p>
-            <b>Brewed:</b> {renderDate(props.cardData.brewDate)}{" "}
+            <b>Brewed:</b>{" "}
+            {props.cardData.brewDate !== "" &&
+              renderDate(props.cardData.brewDate)}{" "}
           </p>
           <p>
             <b>Reviewed:</b>
-            {renderDate(props.cardData.reviewDate)}
+            {(props.cardData.reviewDate !== "" &&
+              renderDate(props.cardData.reviewDate)) ||
+              " As yet untasted!"}
           </p>
         </div>
         <p>
