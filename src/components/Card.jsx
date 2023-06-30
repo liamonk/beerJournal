@@ -9,10 +9,16 @@ export default function Card(props) {
   if (props.cardData.onTap) {
     badgeText = "ON TAP";
   }
+  if (props.cardData.reviewDate === "") {
+    badgeText = "FERMENTER!";
+  }
   return (
     <div className="card">
       <div className="card-image-box">
         {badgeText !== "" && <div className="card-badgeText">{badgeText}</div>}
+        {props.cardData.reviewDate === "" && (
+          <div className="card-badgeText">{badgeText}</div>
+        )}
         <img className="card-image" src={`./${props.cardData.image}`} />
       </div>
       <div className="card-box">
