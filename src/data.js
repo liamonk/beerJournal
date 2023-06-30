@@ -68,4 +68,21 @@ export default [
     ibu: 35,
     srm: 4,
   },
+  {
+    id: 5,
+    name: "Ample Pour",
+    style: "American Porter",
+    styleGuideAddress: "",
+    brewDate: "2023-04-5T00:00:00Z",
+    reviewDate: "2023-06-30T00:00:00Z",
+    description:
+      "A dark beer is a great thing and with a bit more hoppyness you get an American Porter. I've always liked this style and was aiming for a low ABV porter with plenty of body and a but of hoppyness to go with it. ",
+    review:
+      "A tasty beer with a decent amount of roast and nice hoppy notes. Came out reasonably low ABV but still tastes really full. Ideal winter sipper, would brew again.",
+    image: "americanPorter.jpg",
+    rating: "4.5/5",
+    abv: 4.3,
+    ibu: 35,
+    srm: 60,
+  },
 ];
