@@ -11,7 +11,7 @@ export default [
     review: "",
     image: "comingSoon.jpg",
     rating: "",
-    abv: 4.2,
+    abv: 4.6,
     ibu: 50,
     srm: 10,
     onTap: false,
