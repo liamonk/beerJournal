@@ -1,5 +1,22 @@
 export default [
   {
+    id: 6,
+    name: "Return of the brewer",
+    style: "Pale Ale",
+    styleGuideAddress: "",
+    brewDate: "2023-06-02T00:00:00Z",
+    reviewDate: "",
+    description:
+      "After a break from brewing (and updating this) I'm back baby. This is going to be a simple pale ale with Azacca and El Dorado hops - the kind of beer I could drink any day.",
+    review: "",
+    image: "tbc.jpg",
+    rating: "",
+    abv: 4.2,
+    ibu: 50,
+    srm: 10,
+    onTap: false,
+  },
+  {
     id: 1,
     name: "Pacific Heft",
     style: "Hefeweizen",
@@ -9,9 +26,10 @@ export default [
     reviewDate: "",
     description:
       "I brewed this beer to have a refreshing hefeweizen on tap. I've made a few before but this time I tried to resist my urge to hop everything into oblivion. My OG came in a litte lower than I would have expected but still ended up with a respectable 4.2% ABV. Named because it is a German beer brewed in the pacific using ingredients from the pacific with pacifica hops!",
-    review: "TBC!",
+    review:
+      "This beer came out well and was very refreshing. Not as much hefe character as I would have liked, next time I'll push the temp higher. (no picture as I let this blog languish a bit).",
     image: "tbc.jpg",
-    rating: "tbc",
+    rating: "3.5/5",
     abv: 4.2,
     ibu: 20,
     srm: 5,
@@ -33,7 +51,7 @@ export default [
     abv: 4.3,
     ibu: 35,
     srm: 60,
-    onTap: true,
+    onTap: false,
   },
   {
     id: 2,
@@ -51,7 +69,7 @@ export default [
     abv: 5.8,
     ibu: 35,
     srm: 7,
-    onTap: true,
+    onTap: false,
   },
 
   {
@@ -70,7 +88,7 @@ export default [
     abv: 6.2,
     ibu: 35,
     srm: 4,
-    onTap: true,
+    onTap: false,
   },
   {
     id: 3,
@@ -89,6 +107,6 @@ export default [
     abv: 6.4,
     ibu: 30,
     srm: 40,
-    onTap: true,
+    onTap: false,
   },
 ];
