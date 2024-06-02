@@ -9,7 +9,7 @@ export default [
     description:
       "After a break from brewing (and updating this) I'm back baby. This is going to be a simple pale ale with Azacca and El Dorado hops - the kind of beer I could drink any day.",
     review: "",
-    image: "tbc.jpg",
+    image: "comingSoon.jpg",
     rating: "",
     abv: 4.2,
     ibu: 50,
