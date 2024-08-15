@@ -15,7 +15,8 @@ Template to use for adding new posts
     rating:"",
     abv: ,
     ibu:,
-    srm: 
+    srm: ,
+    onTap: false
 },
 
 */

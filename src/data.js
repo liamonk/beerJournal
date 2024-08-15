@@ -1,5 +1,20 @@
 export default [
   {
+    id: 7,
+    name: "Hāura ale",
+    style: "American Brown Ale",
+    styleGuideAddress: "https://www.craftbeer.com/styles/american-brown-ale",
+    brewDate: "2024-07-16T00:00:00Z",
+    reviewDate: "",
+    description: "This is an american brown ale using mostly NZ ingredients. It is loosely based off the clone recipe for Dusty Gringo by the now sadly defunct Deep Creek Brewing",
+    review:"",
+    image:"tbc.jpg",
+    rating:"",
+    abv: 6,
+    ibu:50,
+    srm: 40,
+    onTap: false
+},{
     id: 6,
     name: "Return of the brewer",
     style: "Pale Ale",
